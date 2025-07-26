@@ -49,8 +49,48 @@ flixfinder/
 ├── profilepic.png # Developer image (About Us tab)
 └── README.md 
 
+## 📊 Dataset Used
+
+FlixFinder uses two primary datasets to power its recommendations:
+
+---
+
+### 🗃️ 1. TMDb 5000 Movie Dataset (`data/`)
+
+- **Files:**
+  - `tmdb_5000_movies.csv`
+  - `tmdb_5000_credits.csv`
+
+- **Source:** [Kaggle – TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
+- **Usage:**
+  - Used for content-based recommendations
+  - Extracts movie metadata (title, genres, overview, cast, crew)
+  - Enriched using the **TMDb API** for posters, trailers, ratings, etc.
+
+---
+
+### 🧠 2. MovieLens Dataset (`dataforcollab/`)
+
+- **Files:**
+  - `ratings.csv`
+  - `movies.csv`
+  - `links.csv`
+
+- **Source:** [MovieLens 100k Dataset](https://grouplens.org/datasets/movielens/)
+
+- **Usage:**
+  - Used for collaborative filtering
+  - Matches MovieLens movies to TMDb movies using `links.csv`
+
+---
+
+
+
 😎 Developer - Divyashree Kondekar!
 💛 Passionate about MovieTech, and building cool apps!
 🌟 Made with ❤️ as part of internship/project submission...
+
+
 
 
