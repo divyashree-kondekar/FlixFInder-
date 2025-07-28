@@ -85,6 +85,8 @@ FlixFinder uses two primary datasets to power its recommendations:
 
 ---
 
+## NOTE:
+Details button will work across tab 1 , tab 4 and tab 7 only due to streamlit rerun Issue!!
 
 
 😎 Developer - Divyashree Kondekar!
